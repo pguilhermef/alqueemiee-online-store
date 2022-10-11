@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+}
+
+.header-title-line {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffc2b6;
+  background-color: #ff855f;
+  transition: height 300ms linear 0s;
+}
+
+.header-title-line:hover {
+  height: 60px;
+}
+
+.header-title-line span {
+  font-size: 20px;
+  transition: font-size 300ms 0s;
+}
+
+.header-title-line:hover span {
+  font-size: 30px;
+}
+
+
+.header-title-line img {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  height: 20px;
+  transition: top 300ms 0s;
+}
+
+.header-title-line:hover img {
+  left: 10px;
+  top: 20px;
+}
