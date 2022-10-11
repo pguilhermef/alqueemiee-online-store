@@ -57,3 +57,31 @@
   display: flex;
   justify-content: center;
 }
+
+.header-links {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  margin-right: 1%;
+}
+
+.card {
+  width: 18%;
+  max-width: 130px;
+  height: 200px;
+  position: relative;
+  display: inline-block;
+}
+.card .img-2 {
+  display: none;
+  position: absolute;
+  z-index: 99;
+}
+.card:hover .img-2 {
+  display: flex;
+}
+
+.card:hover .img-1 {
+  display: none;
+  z-index: 99;
+}
