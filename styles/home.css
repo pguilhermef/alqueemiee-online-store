@@ -2,7 +2,7 @@
   margin: 0;
 }
 
-.header-title-line {
+.header-line {
   height: 40px;
   display: flex;
   justify-content: center;
@@ -12,21 +12,20 @@
   transition: height 300ms linear 0s;
 }
 
-.header-title-line:hover {
+.header-line:hover {
   height: 60px;
 }
 
-.header-title-line span {
+.header-line span {
   font-size: 20px;
   transition: font-size 300ms 0s;
 }
 
-.header-title-line:hover span {
+.header-line:hover span {
   font-size: 30px;
 }
 
-
-.header-title-line img {
+.header-line img {
   position: absolute;
   left: 10px;
   top: 10px;
@@ -34,7 +33,27 @@
   transition: top 300ms 0s;
 }
 
-.header-title-line:hover img {
+.header-line:hover img {
   left: 10px;
   top: 20px;
+}
+
+.header-line svg {
+  position: absolute;
+  height: 55px;
+  top: 3px;
+  margin-left: 189px;
+  stroke-dasharray: 2819;
+  stroke-dashoffset: 2819;
+  -webkit-transition: stroke-dashoffset 50ms;
+}
+
+.header-line:hover svg {
+  stroke-dashoffset: 0;
+  -webkit-transition: stroke-dashoffset 2s 300ms;
+}
+
+.header-text-line {
+  display: flex;
+  justify-content: center;
 }
