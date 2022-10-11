@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&display=swap');
+
 * {
   margin: 0;
 }
-
 .header-line {
   height: 40px;
   display: flex;
@@ -10,21 +11,18 @@
   color: #ffc2b6;
   background-color: #ff855f;
   transition: height 300ms linear 0s;
+  font-family: 'IM Fell DW Pica SC', serif;
 }
-
 .header-line:hover {
   height: 60px;
 }
-
 .header-line span {
   font-size: 20px;
   transition: font-size 300ms 0s;
 }
-
 .header-line:hover span {
-  font-size: 30px;
+  font-size: 25px;
 }
-
 .header-line img {
   position: absolute;
   left: 10px;
@@ -32,43 +30,34 @@
   height: 20px;
   transition: top 300ms 0s;
 }
-
 .header-line:hover img {
   left: 10px;
   top: 20px;
 }
-
 .header-line svg {
   position: absolute;
-  height: 55px;
-  top: 3px;
-  margin-left: 189px;
+  height: 45px;
+  top: 4px;
+  margin-left: 170px;
   stroke-dasharray: 2819;
   stroke-dashoffset: 2819;
   -webkit-transition: stroke-dashoffset 50ms;
 }
-
 .header-line:hover svg {
   stroke-dashoffset: 0;
   -webkit-transition: stroke-dashoffset 2s 300ms;
 }
-
 .header-text-line {
   display: flex;
   justify-content: center;
 }
-
 .header-links {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 10px;
-  margin-right: 1%;
+  position: absolute;
+  height: 220px;
 }
-
 .card {
-  width: 18%;
+  width: 10%;
   max-width: 130px;
-  height: 200px;
   position: relative;
   display: inline-block;
 }
@@ -80,8 +69,25 @@
 .card:hover .img-2 {
   display: flex;
 }
-
 .card:hover .img-1 {
   display: none;
   z-index: 99;
+}
+.header-main {
+  background-color: #fffbe2;
+  height: 100%;
+  font-family: 'IM Fell DW Pica SC', serif;
+  color: #ffc2b6;
+  transition: height 300ms linear 0s;
+}
+.header-main span {
+  height: 250px;
+  font-size: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.header-main div {
+  display: flex;
+  justify-content: flex-end;
 }
