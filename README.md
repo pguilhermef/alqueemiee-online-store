@@ -1,2 +1,3 @@
 # alqueemiee-online-store
-Meu primeiro projeto front-end pago.
+
+Header criado para a empresa Alqueemiee
